@@ -1,0 +1,2 @@
+# WeatherInformation
+This is a simple application which fetches weather information and displays it in the list screen and a detailed information screen.  For this application to work, you need to get the API key by registering with https://openweathermap.org/current. Set this value to the apiKey field the in GSAppConstants.swift file.  Cuurently the application fetches weather information of Sydney, Melbourne and Brisbane cities. You can find the cityIds from the mentioned site.

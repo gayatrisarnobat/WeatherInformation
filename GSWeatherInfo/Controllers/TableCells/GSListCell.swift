@@ -9,7 +9,11 @@
 import UIKit
 
 class GSListCell: UITableViewCell {
-
+    
+    // MARK: Outlets
+    @IBOutlet var lblCityName: UILabel!
+    @IBOutlet var lblTemperature: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

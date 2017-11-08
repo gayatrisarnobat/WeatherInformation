@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77FF1F791FB2AE760061E41D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF1F781FB2AE760061E41D /* AppDelegate.swift */; };
-		77FF1F7B1FB2AE760061E41D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF1F7A1FB2AE760061E41D /* ViewController.swift */; };
-		77FF1F7E1FB2AE770061E41D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FF1F7C1FB2AE770061E41D /* Main.storyboard */; };
-		77FF1F801FB2AE790061E41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FF1F7F1FB2AE790061E41D /* Assets.xcassets */; };
-		77FF1F831FB2AE7B0061E41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FF1F811FB2AE7B0061E41D /* LaunchScreen.storyboard */; };
+		77CB767A1FB2B3FD005D31F1 /* GSListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB76791FB2B3FD005D31F1 /* GSListVC.swift */; };
+		77CB767C1FB2B507005D31F1 /* GSCityWeatherObj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB767B1FB2B507005D31F1 /* GSCityWeatherObj.swift */; };
+		77CB767E1FB2B847005D31F1 /* GSAppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB767D1FB2B847005D31F1 /* GSAppConstants.swift */; };
+		77CB76811FB2B8EB005D31F1 /* GSCityTemperatureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB76801FB2B8EB005D31F1 /* GSCityTemperatureService.swift */; };
+		77CB76831FB2C4FE005D31F1 /* GSAppUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB76821FB2C4FE005D31F1 /* GSAppUtils.swift */; };
+		77CB76861FB2E8C0005D31F1 /* GSListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB76851FB2E8BD005D31F1 /* GSListCell.swift */; };
+		77CB76881FB2EFE7005D31F1 /* GSWeatherDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77CB76871FB2EFE6005D31F1 /* GSWeatherDetailsVC.swift */; };
+		77FF1F981FB2AF650061E41D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FF1F8B1FB2AF440061E41D /* Assets.xcassets */; };
+		77FF1F991FB2AF7D0061E41D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FF1F911FB2AF440061E41D /* LaunchScreen.storyboard */; };
+		77FF1F9A1FB2AF7D0061E41D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FF1F8D1FB2AF440061E41D /* Main.storyboard */; };
+		77FF1F9C1FB2AF910061E41D /* GSAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF1F951FB2AF440061E41D /* GSAppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		77CB76791FB2B3FD005D31F1 /* GSListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSListVC.swift; sourceTree = "<group>"; };
+		77CB767B1FB2B507005D31F1 /* GSCityWeatherObj.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSCityWeatherObj.swift; sourceTree = "<group>"; };
+		77CB767D1FB2B847005D31F1 /* GSAppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSAppConstants.swift; sourceTree = "<group>"; };
+		77CB76801FB2B8EB005D31F1 /* GSCityTemperatureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSCityTemperatureService.swift; sourceTree = "<group>"; };
+		77CB76821FB2C4FE005D31F1 /* GSAppUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSAppUtils.swift; sourceTree = "<group>"; };
+		77CB76851FB2E8BD005D31F1 /* GSListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSListCell.swift; sourceTree = "<group>"; };
+		77CB76871FB2EFE6005D31F1 /* GSWeatherDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSWeatherDetailsVC.swift; sourceTree = "<group>"; };
 		77FF1F751FB2AE760061E41D /* GSWeatherInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSWeatherInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		77FF1F781FB2AE760061E41D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		77FF1F7A1FB2AE760061E41D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		77FF1F7D1FB2AE770061E41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77FF1F7F1FB2AE790061E41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		77FF1F821FB2AE7B0061E41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		77FF1F841FB2AE7B0061E41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FF1F8B1FB2AF440061E41D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77FF1F8E1FB2AF440061E41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77FF1F921FB2AF440061E41D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		77FF1F931FB2AF440061E41D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77FF1F951FB2AF440061E41D /* GSAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSAppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		77CB767F1FB2B8BF005D31F1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				77CB76801FB2B8EB005D31F1 /* GSCityTemperatureService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		77CB76841FB2E894005D31F1 /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				77CB76851FB2E8BD005D31F1 /* GSListCell.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
 		77FF1F6C1FB2AE760061E41D = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +82,68 @@
 		77FF1F771FB2AE760061E41D /* GSWeatherInfo */ = {
 			isa = PBXGroup;
 			children = (
-				77FF1F781FB2AE760061E41D /* AppDelegate.swift */,
-				77FF1F7A1FB2AE760061E41D /* ViewController.swift */,
-				77FF1F7C1FB2AE770061E41D /* Main.storyboard */,
-				77FF1F7F1FB2AE790061E41D /* Assets.xcassets */,
-				77FF1F811FB2AE7B0061E41D /* LaunchScreen.storyboard */,
-				77FF1F841FB2AE7B0061E41D /* Info.plist */,
+				77FF1F8F1FB2AF440061E41D /* Models */,
+				77FF1F961FB2AF440061E41D /* Controllers */,
+				77FF1F8C1FB2AF440061E41D /* Views */,
+				77FF1F941FB2AF440061E41D /* Core */,
+				77CB767F1FB2B8BF005D31F1 /* Services */,
+				77FF1F8A1FB2AF440061E41D /* Resources */,
+				77FF1F901FB2AF440061E41D /* SupportingFiles */,
 			);
 			path = GSWeatherInfo;
+			sourceTree = "<group>";
+		};
+		77FF1F8A1FB2AF440061E41D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				77FF1F8B1FB2AF440061E41D /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		77FF1F8C1FB2AF440061E41D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77FF1F8D1FB2AF440061E41D /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77FF1F8F1FB2AF440061E41D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77CB767B1FB2B507005D31F1 /* GSCityWeatherObj.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77FF1F901FB2AF440061E41D /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				77FF1F911FB2AF440061E41D /* LaunchScreen.storyboard */,
+				77FF1F931FB2AF440061E41D /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		77FF1F941FB2AF440061E41D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				77FF1F951FB2AF440061E41D /* GSAppDelegate.swift */,
+				77CB767D1FB2B847005D31F1 /* GSAppConstants.swift */,
+				77CB76821FB2C4FE005D31F1 /* GSAppUtils.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		77FF1F961FB2AF440061E41D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				77CB76841FB2E894005D31F1 /* TableCells */,
+				77CB76791FB2B3FD005D31F1 /* GSListVC.swift */,
+				77CB76871FB2EFE6005D31F1 /* GSWeatherDetailsVC.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +205,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77FF1F831FB2AE7B0061E41D /* LaunchScreen.storyboard in Resources */,
-				77FF1F801FB2AE790061E41D /* Assets.xcassets in Resources */,
-				77FF1F7E1FB2AE770061E41D /* Main.storyboard in Resources */,
+				77FF1F991FB2AF7D0061E41D /* LaunchScreen.storyboard in Resources */,
+				77FF1F9A1FB2AF7D0061E41D /* Main.storyboard in Resources */,
+				77FF1F981FB2AF650061E41D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,26 +218,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77FF1F7B1FB2AE760061E41D /* ViewController.swift in Sources */,
-				77FF1F791FB2AE760061E41D /* AppDelegate.swift in Sources */,
+				77CB76811FB2B8EB005D31F1 /* GSCityTemperatureService.swift in Sources */,
+				77CB76831FB2C4FE005D31F1 /* GSAppUtils.swift in Sources */,
+				77CB767A1FB2B3FD005D31F1 /* GSListVC.swift in Sources */,
+				77FF1F9C1FB2AF910061E41D /* GSAppDelegate.swift in Sources */,
+				77CB76881FB2EFE7005D31F1 /* GSWeatherDetailsVC.swift in Sources */,
+				77CB767C1FB2B507005D31F1 /* GSCityWeatherObj.swift in Sources */,
+				77CB767E1FB2B847005D31F1 /* GSAppConstants.swift in Sources */,
+				77CB76861FB2E8C0005D31F1 /* GSListCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		77FF1F7C1FB2AE770061E41D /* Main.storyboard */ = {
+		77FF1F8D1FB2AF440061E41D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77FF1F7D1FB2AE770061E41D /* Base */,
+				77FF1F8E1FB2AF440061E41D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		77FF1F811FB2AE7B0061E41D /* LaunchScreen.storyboard */ = {
+		77FF1F911FB2AF440061E41D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				77FF1F821FB2AE7B0061E41D /* Base */,
+				77FF1F921FB2AF440061E41D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -273,10 +361,9 @@
 		77FF1F881FB2AE7B0061E41D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PN6TQD58J7;
-				INFOPLIST_FILE = GSWeatherInfo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GSWeatherInfo/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gayatrisarnobat.GSWeatherInfo;
@@ -289,10 +376,9 @@
 		77FF1F891FB2AE7B0061E41D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PN6TQD58J7;
-				INFOPLIST_FILE = GSWeatherInfo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/GSWeatherInfo/SupportingFiles/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gayatrisarnobat.GSWeatherInfo;
